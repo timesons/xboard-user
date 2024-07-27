@@ -1,19 +1,19 @@
 // API地址
-window.routerBase = 'http://127.0.0.1:8000/'
+window.routerBase = 'https://new.gjtq.net/'
 window.settings = {
   // 站点名称
-  title: 'Xboard',
+  title: '狗急跳墙GJTQ',
   // 站点描述
-  description: 'Xboard',
+  description: 'gjtq.net',
   assets_path: '/assets',
   // 主题色
   theme: {
-    color: 'default', //可选default、blue、black、、darkblue
+    color: 'black', //可选default、blue、black、darkblue
   },
   // 版本号
   version: '0.1.1-dev',
   // 登陆背景
-  background_url: '',
+  background_url: './assets/images/background.svg',
   // 站点LOGO
   logo: '',
 }
