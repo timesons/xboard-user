@@ -8,7 +8,7 @@ window.settings = {
   assets_path: '/assets',
   // 主题色
   theme: {
-    color: 'darkblue', //可选 default、blue、black、darkblue
+    color: 'default', //可选 default、blue、black、darkblue
   },
   // 版本号
   version: '0.1.1-dev',
