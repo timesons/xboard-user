@@ -2,9 +2,9 @@
 window.routerBase = 'https://new.gjtq.net/'
 window.settings = {
   // 站点名称
-  title: 'GJTQ狗急跳墙',
+  title: 'Airport404',
   // 站点描述
-  description: 'https://gjtq.net',
+  description: 'www.airport404.com',
   assets_path: '/assets',
   // 主题色
   theme: {
