@@ -2,9 +2,9 @@
 window.routerBase = 'https://new.gjtq.net/'
 window.settings = {
   // 站点名称
-  title: '狗急跳墙GJTQ',
+  title: 'GJTQ狗急跳墙',
   // 站点描述
-  description: 'gjtq.net',
+  description: 'https://gjtq.net',
   assets_path: '/assets',
   // 主题色
   theme: {
