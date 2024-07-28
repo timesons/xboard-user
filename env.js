@@ -13,7 +13,7 @@ window.settings = {
   // 版本号
   version: '0.1.1-dev',
   // 登陆背景
-  background_url: './assets/images/404_error_checking_FI.webp',
+  background_url: (window.location.host.search('404') != -1) ? './assets/images/404_error_checking_FI.webp' : './assets/images/maxresdefault.jpg',
   // 站点LOGO
   logo: '',
 }
