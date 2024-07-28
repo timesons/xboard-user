@@ -4,7 +4,7 @@ window.settings = {
   // 站点名称
   title: 'Airport404',
   // 站点描述
-  description: '隐形机场：www.airport404.com',
+  description: 'www.airport404.com',
   assets_path: '/assets',
   // 主题色
   theme: {
