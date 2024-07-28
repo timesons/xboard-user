@@ -2,7 +2,7 @@
 window.routerBase = 'https://new.gjtq.net/'
 window.settings = {
   // 站点名称
-  title: (window.location.host.search('404') != -1)? {console.log("Airport404")}: {console.log("GJTQ")},
+  title: (window.location.host.search('404') != -1)? console.log("Airport404"): console.log("GJTQ"),
   // 站点描述
   description: window.location.host,
   assets_path: '/assets',
