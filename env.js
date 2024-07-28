@@ -13,7 +13,7 @@ window.settings = {
   // 版本号
   version: '0.1.1-dev',
   // 登陆背景
-  background_url: './assets/images/background.svg',
+  background_url: './assets/images/background.jpg',
   // 站点LOGO
   logo: '',
 }
