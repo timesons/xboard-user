@@ -2,9 +2,9 @@
 window.routerBase = 'https://new.gjtq.net/'
 window.settings = {
   // 站点名称
-  title: 'Airport404隐形机场',
+  title: 'Airport404',
   // 站点描述
-  description: 'www.airport404.com',
+  description: '隐形机场：www.airport404.com',
   assets_path: '/assets',
   // 主题色
   theme: {
