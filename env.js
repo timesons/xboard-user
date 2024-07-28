@@ -1,5 +1,5 @@
 // API地址
-window.routerBase = 'https://new.gjtq.net/'
+window.routerBase = 'https://gjtq.net/'
 window.settings = {
   // 站点名称
   title: 'Airport404',
