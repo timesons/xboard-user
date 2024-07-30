@@ -4,7 +4,7 @@ window.settings = {
   // 站点名称
   title: (window.location.host.search('404') != -1) ? "Airport404/隐身机场" : "GJTQ/狗急跳墙",
   // 站点描述
-  description: window.location.host,
+  description: 'https://' + window.location.host,
   assets_path: '/assets',
   // 主题色
   theme: {
