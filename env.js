@@ -13,7 +13,7 @@ window.settings = {
   // 版本号
   version: '0.1.1-dev',
   // 登陆背景
-  background_url: (window.location.host.search('404') != -1) ? './assets/images/404_error_checking_FI.webp' : './assets/images/background.svg',
+  background_url: 'https://bing.img.run/rand_uhd.php',
   // 站点LOGO
   logo: '',
 }
