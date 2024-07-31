@@ -13,7 +13,7 @@ window.settings = {
   // 版本号
   version: '0.1.1-dev',
   // 登陆背景
-  background_url: 'https://bing.img.run/rand_uhd.php',
+  background_url: 'https://bing.img.run/rand_1366x768.php',
   // 站点LOGO
   logo: '',
 }
