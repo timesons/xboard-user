@@ -2,7 +2,7 @@
 window.routerBase = 'https://airport404.com/'
 window.settings = {
   // 站点名称
-  title: (window.location.host.search('404') != -1) ? "隐身机场" : ((window.location.host.search('gjtq') != -1) ? "狗急跳墙" : "梯子")),
+  title: (window.location.host.search('404') != -1) ? "隐身机场" : ((window.location.host.search('gjtq') != -1) ? "狗急跳墙" : "梯子"),
   // 站点描述
   description: 'https://' + window.location.host,
   assets_path: '/assets',
