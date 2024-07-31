@@ -1,5 +1,5 @@
 // API地址
-window.routerBase = 'https://gjtq.net/'
+window.routerBase = 'https://airport404.com/'
 window.settings = {
   // 站点名称
   title: (window.location.host.search('404') != -1) ? "隐身机场" : "狗急跳墙",
