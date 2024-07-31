@@ -15,7 +15,7 @@
     </div>
     <script>
         window.onloadTurnstileCallback = function () {
-            turnstile.render('#n-config-provider', {
+            turnstile.render('#example-container', {
                 sitekey: '<0x4AAAAAAAgLuFzQmDg-h017>',
                 callback: function(token) {
                     console.log(`Challenge Success ${token}`);
