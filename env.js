@@ -2,7 +2,7 @@
 window.routerBase = 'https://www.gjtq.net/'
 window.settings = {
   // 站点名称
-  title: (window.location.host.search('ysjc') != -1) ? "隐身机场" : ((window.location.host.search('tizi001') != -1) ? "梯子001" : ((window.location.host.search('tizi100') != -1)) ? "梯子100" : ((window.location.host.search('fq100') != -1)) ? "翻墙100" : ((window.location.host.search('jiasu001') != -1)) ? "加速001" : ((window.location.host.search('jiasu100') != -1)) ? "加速100" : ((window.location.host.search('kxsw100') != -1)) ? "科学上网100" : "狗急跳墙"),
+  title: (window.location.host.search('ysjc') != -1) ? "隐身机场/YSJC" : ((window.location.host.search('tizi001') != -1) ? "梯子001/tizi001" : ((window.location.host.search('tizi100') != -1)) ? "梯子100/TiZi100" : ((window.location.host.search('fq100') != -1)) ? "翻墙100/FQ100" : ((window.location.host.search('jiasu001') != -1)) ? "加速001/JiaSu001" : ((window.location.host.search('jiasu100') != -1)) ? "加速100/JiaSu100" : ((window.location.host.search('kxsw100') != -1)) ? "科学上网100/KXSQ100" :  ((window.location.host.search('hidemysel') != -1)) ? 'HideMySelf' : "狗急跳墙"),
   // 站点描述
   description: 'https://' + window.location.host,
   assets_path: '/assets',
