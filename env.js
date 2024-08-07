@@ -2,7 +2,7 @@
 window.routerBase = 'https://gjtq.net/'
 window.settings = {
   // 站点名称
-  title: ((window.location.host.search('dogssl') != -1) ? "dogssl" : ((window.location.host.search('gjtq') != -1) ? "狗急跳墙" : ((window.location.host.search('hidemytail') != -1)) ? "HideMyTail" : ((window.location.host.search('dogvpn') != -1)) ? "dogvpn" : "VPN"),
+  title: (window.location.host.search('dogvpn') != -1) ? "DogVPN" : ((window.location.host.search('gjtq') != -1) ? "狗急跳墙" : ((window.location.host.search('dogssl') != -1)) ? "DogSSL" : ((window.location.host.search('hidemyself') != -1)) ? "HideMySelf" : ((window.location.host.search('hidemytail') != -1)) ? "HideMyTail" : "XXX"),
   // 站点描述
   description:  (window.location.host.search('gjtq') != -1) ? '狗急跳墙(oﾟ▽ﾟ)o欢呼~-gjtq' : 'https://' + window.location.host,
   assets_path: '/assets',
