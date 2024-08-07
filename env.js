@@ -15,5 +15,5 @@ window.settings = {
   // 登陆背景
   background_url: 'https://bing.img.run/rand_1366x768.php',
   // 站点LOGO
-  logo: '/assets/images/dog-logo.svg',
+  // logo: '/assets/images/dog-logo.svg',
 }
