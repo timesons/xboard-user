@@ -3,14 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
-    <title></title>
+    <title>默认标题</title>
     <script type="module" crossorigin src="/assets/umi.js"></script>
 </head>
 <body>
-    <script>document.title= ((window.location.host.search('ysjc') != -1) ? "隐身机场" : ((window.location.host.search('gjtq') != -1) ? "狗急跳墙" : ((window.location.host.search('tizi100') != -1)) ? "梯子100" : ((window.location.host.search('fq100') != -1)) ? "翻墙100" : ((window.location.host.search('jiasu001') != -1)) ? "加速001" : ((window.location.host.search('jiasu100') != -1)) ? "加速100" : ((window.location.host.search('kxsw100') != -1)) ? "科学上网100" :  ((window.location.host.search('hidemyself') != -1)) ? "HideMySelf" : ((window.location.host.search('hidemytail') != -1)) ? "HideMyTail" : ((window.location.host.search('hidemyass') != -1)) ? "HideMyAss" : "XXX"))</script>
+    <script>
+        const hostMap = {
+            'gjtq': '狗急跳墙',
+            'kxsw100': '科学上网100',
+            'hidemyself': 'HideMySelf',
+            'hidemytail': 'HideMyTail',
+            'dogssl':'小狗加速',
+            'dogrun':'小狗快跑',
+            'dogvpn':'小狗VPN',
+        };
+        const defaultTitle = "XXX";
+        let title = defaultTitle;
+        Object.keys(hostMap).forEach(key => {
+            if (window.location.host.includes(key)) {
+                title = hostMap[key];
+            }
+        });
+        document.title = title;
+    </script>
     <script src="./env.js"></script>
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?compat=recaptcha" async defer></script>
-    <div id="app">
-    </div>
+    <div id="app"></div>
 </body>
 </html>
