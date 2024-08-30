@@ -24,4 +24,5 @@ window.settings = {
   background_url: 'https://bing.img.run/rand_1366x768.php',
   // 站点LOGO
   logo: '/assets/images/dog-logo.svg',
+  favicon: '/assets/images/favicon.ico',
 };
