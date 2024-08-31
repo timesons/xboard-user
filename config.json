@@ -3,6 +3,7 @@
   "description": "GJTQ",
   "version": "1.0.0",
   "images": "",
+  "copyright":"Copyright 2017-2024 All Rights Reserved",
   "configs": [
     {
       "label": "主题色",
