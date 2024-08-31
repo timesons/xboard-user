@@ -25,4 +25,5 @@ window.settings = {
   // 站点LOGO
   logo: '/assets/images/dog-logo.svg',
   favicon: '/assets/images/favicon.ico',
+  copyright:'Copyright 2017-2024 All Rights Reserved'
 };
