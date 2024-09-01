@@ -21,7 +21,7 @@ window.settings = {
   // 版本号
   version: '0.1.1-dev',
   // 登陆背景
-  background_url: 'https://bing.img.run/rand_1366x768.php',
+  background_url: '/assets/images/Global_network_generated.jpg',
   // 站点LOGO
   logo: '/assets/images/dog-logo.svg',
   favicon: '/assets/images/favicon.ico',
