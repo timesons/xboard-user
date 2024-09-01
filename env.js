@@ -12,7 +12,7 @@ window.settings = {
   // 站点名称
   title: isDogvpn ? "DogVPN" : isDogrun ? "DogRun" : isGjtq ? "狗急跳墙GJTQ" : isDogssl ? "DogSSL" : isHidemytail ? "HideMyTail" : "默认名称",
   // 站点描述
-  description: isGjtq ? '狗急跳墙(oﾟ▽ﾟ)o欢呼~-GJTQ!' : isDogrun ? 'Unlock all websites with DogRun' : isDogssl ? 'Unlock all websites with DogSSL' : isDogvpn ? 'Unlock all websites with DogVPN' : isHidemytail ? 'HideMyTail::Unblock Websites with HMT' : '默认描述',
+  description: isGjtq ? '狗急跳墙(oﾟ▽ﾟ)o欢呼~-GJTQ!' : isDogrun ? 'Unblock all websites with DogRun' : isDogssl ? 'Unblock all websites with DogSSL' : isDogvpn ? 'Unblock all websites with DogVPN' : isHidemytail ? 'HideMyTail::Unblock Websites with HMT' : '默认描述',
   assets_path: '/assets',
   // 主题色
   theme: {
