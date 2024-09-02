@@ -1,0 +1,5 @@
+User-agent: *
+allow: /#/login
+allow: /#/register
+allow: /#/forgetpassword
+disallow: /api
