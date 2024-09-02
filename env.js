@@ -21,7 +21,7 @@ window.settings = {
   // 版本号
   version: '0.1.1-dev',
   // 登陆背景
-  background_url: '/assets/images/world-vertical-circle-light.svg',
+  background_url: 'https://pub-7b2c70e035c9410197966e5e06a22b02.r2.dev/world-vertical-circle-light.svg',
   // 站点LOGO
   logo: '/assets/images/dog-logo.svg',
   favicon: '/assets/images/favicon.ico',
