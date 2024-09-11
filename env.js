@@ -1,5 +1,5 @@
 // API地址
-window.routerBase = 'https://airport404.com/';
+window.routerBase = 'https://gjtq.net/api/v1';
 
 // 预先检查host中是否包含特定字符串
 const isDogvpn = window.location.host.includes('dogvpn');
