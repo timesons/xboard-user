@@ -23,7 +23,7 @@ window.settings = {
   // 登陆背景
   background_url: 'https://pub-7b2c70e035c9410197966e5e06a22b02.r2.dev/world-vertical-circle-light.svg',
   // 站点LOGO
-  logo: 'https://pub-7b2c70e035c9410197966e5e06a22b02.r2.dev/dog-logo.svg',
+  logo: 'https://pub-7b2c70e035c9410197966e5e06a22b02.r2.dev/gjtq-logo.png',
   favicon: 'https://pub-7b2c70e035c9410197966e5e06a22b02.r2.dev/favicon.ico',
   copyright:'Copyright 2017-2024 All Rights Reserved'
 };
