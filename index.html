@@ -60,8 +60,22 @@
                 element.style.margin = '0'; 
                 element.style.padding = '0'; 
                 element.style.fontSize = '20px'; 
-                // 可以添加更多样式
+                //打印文字
+                const text = element.textContent; // 获取文字内容
+                element.textContent = ''; // 清空原有内容
+                let index = 0; // 字符索引
+                const interval = setInterval(() => {
+                    if (index < text.length) {
+                        element.textContent += text[index]; // 逐个添加字符
+                        index++;
+                    } else {
+                        clearInterval(interval); // 清除定时器
+                    }
+                }, 300); // 每100毫秒显示一个字符
+                //打印文字结束
+                
             });
+            
         };
     </script>
     <!-- <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?compat=recaptcha" async defer></script> -->
