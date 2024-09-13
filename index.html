@@ -47,8 +47,9 @@
             mutedElements.forEach(element => {
                 element.style.margin = '0'; 
                 element.style.padding = '0'; 
-                element.style.fontSize = '20px';
-                element.style.cssText += 'color: black !important;';
+                element.style.cssText += 'color: #4b4b4b !important;';
+                element.style.cssText += 'font-size: 20px !important;';
+                element.style.cssText += 'font-weight: bold';
                 //打印文字
                 const text = element.textContent; // 获取文字内容
                 element.textContent = ''; // 清空原有内容
