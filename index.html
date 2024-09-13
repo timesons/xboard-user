@@ -55,6 +55,13 @@
                 }
             `;
             document.head.appendChild(style);
+            const mutedElements = document.querySelectorAll('h5.text-muted');
+            mutedElements.forEach(element => {
+                element.style.margin = '0'; 
+                element.style.padding = '0'; 
+                element.style.fontSize = '20px'; 
+                // 可以添加更多样式
+            });
         };
     </script>
     <!-- <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?compat=recaptcha" async defer></script> -->
