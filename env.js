@@ -23,7 +23,7 @@ const getDescription = (brand) => {
 const getAssetUrls = (brand) => {
   if (brand === 'GrassVPN') {
     return {
-      background_url: 'https://pub-7b2c70e035c9410197966e5e06a22b02.r2.dev/undefined%20-%20Imgur%20(1).gif',
+      background_url: 'https://pub-7b2c70e035c9410197966e5e06a22b02.r2.dev/7%20-%20hiI3qKs.gif',
       logo: 'https://pub-7b2c70e035c9410197966e5e06a22b02.r2.dev/WX20240917-015252%402x.png',
       favicon: 'https://pub-7b2c70e035c9410197966e5e06a22b02.r2.dev/grass-favicon.ico'
     };
