@@ -19,6 +19,22 @@ const getDescription = (brand) => {
   return `Unblock All Websites With ${brand}!!!`;
 };
 
+// 获取资源 URL
+const getAssetUrls = (brand) => {
+  if (brand === 'GrassVPN') {
+    return {
+      background_url: 'https://pub-7b2c70e035c9410197966e5e06a22b02.r2.dev/undefined%20-%20Imgur%20(1).gif',
+      logo: 'https://pub-7b2c70e035c9410197966e5e06a22b02.r2.dev/WX20240917-015252%402x.png',
+      favicon: 'https://pub-7b2c70e035c9410197966e5e06a22b02.r2.dev/grass-favicon.ico'
+    };
+  }
+  return {
+    background_url: 'https://pub-7b2c70e035c9410197966e5e06a22b02.r2.dev/gjtq-bg.gif',
+    logo: 'https://pub-7b2c70e035c9410197966e5e06a22b02.r2.dev/gjtq-logo.png',
+    favicon: 'https://pub-7b2c70e035c9410197966e5e06a22b02.r2.dev/favicon.ico'
+  };
+};
+
 // API地址
 window.routerBase = 'https://airport404.com/';
 
@@ -30,8 +46,6 @@ window.settings = {
     color: 'black',
   },
   version: '0.1.1-dev',
-  background_url: 'https://pub-7b2c70e035c9410197966e5e06a22b02.r2.dev/gjtq-bg.gif',
-  logo: 'https://pub-7b2c70e035c9410197966e5e06a22b02.r2.dev/gjtq-logo.png',
-  favicon: 'https://pub-7b2c70e035c9410197966e5e06a22b02.r2.dev/favicon.ico',
+  ...getAssetUrls(currentBrand),
   copyright: 'Copyright 2017-2024 All Rights Reserved'
 };
