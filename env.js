@@ -16,7 +16,7 @@ const currentBrand = Object.entries(DOMAIN_BRANDS)
 // 获取描述文案
 const getDescription = (brand) => {
   if (brand === '狗急跳墙GJTQ') return '狗急跳墙VPN(oﾟ▽ﾟ)o欢呼~-GJTQ!';
-  return `Unblock All Websites With ${brand}/小草VPN`;
+  return `Unblock All Websites With ${brand}!!!`;
 };
 
 // 获取资源 URL
@@ -47,5 +47,5 @@ window.settings = {
   },
   version: '0.1.1-dev',
   ...getAssetUrls(currentBrand),
-  copyright: 'Copyright@ GrassVPN/小草VPN 2017-2024 All Rights Reserved'
+  copyright: 'Copyright 2017-2024 All Rights Reserved'
 };
