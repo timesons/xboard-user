@@ -9,9 +9,17 @@
     <script type="module" crossorigin src="/assets/umi.js"></script>
     <script>
         // 检查当前域名是否为 grassvpn.com
-        if (window.location.hostname === 'grassvpn.com') {
+        if (window.location.hostname.includes === 'grassvpn') {
             // 更新 meta description
             document.querySelector('meta[name="description"]').content = 'GrassVPN：採用最新代理協議更安全，更隱身；包含歐美及亞洲低延遲線路；有隧道中轉、IELP、CN2、GIA、IPLC等優質線路。GrassVPN｜小草VPN官方網站';
+        }
+        if (window.location.hostname.includes === 'hidemytail') {
+            // 更新 meta description
+            document.querySelector('meta[name="description"]').content = 'HideMyTail：採用最新代理協議更安全，更隱身；包含歐美及亞洲低延遲線路；有隧道中轉、IELP、CN2、GIA、IPLC等優質線路。HideMyTail';
+        }
+        if (window.location.hostname.includes === 'gjtq') {
+            // 更新 meta description
+            document.querySelector('meta[name="description"]').content = '狗急跳墙VPN：採用最新代理協議更安全，更隱身；包含歐美及亞洲低延遲線路；有隧道中轉、IELP、CN2、GIA、IPLC等優質線路。狗急跳墙VPN';
         }
     </script>
 </head>
