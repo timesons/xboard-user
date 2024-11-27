@@ -16,7 +16,7 @@ const currentBrand = Object.entries(DOMAIN_BRANDS)
 // 获取描述文案
 const getDescription = (brand) => {
   if (brand === '狗急跳墙GJTQ') return '狗急跳墙VPN(oﾟ▽ﾟ)o欢呼~-GJTQ!';
-  if (brand === 'GrassVPN') return 'GrassVPN/小草VPN';
+  if (brand === 'GrassVPN') return 'GrassVPN';
   return `Unblock All Websites With ${brand}!!!`;
 };
 
