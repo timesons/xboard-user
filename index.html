@@ -22,25 +22,34 @@
             document.querySelector('meta[name="description"]').content = '狗急跳墙VPN：採用最新代理協議更安全，更隱身；包含歐美及亞洲低延遲線路；有隧道中轉、IELP、CN2、GIA、IPLC等優質線路。狗急跳墙VPN';
         }
     </script>
+    <style>
+        .sun-container {
+            position: fixed;
+            top: -68px;
+            left: -113px;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .sun {
+            width: 200px;
+            height: 200px;
+            animation: rotate 60s linear infinite;
+        }
+        
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
 </head>
 <body>
-    <script>
-        const hostMap = {
-            'gjtq': '狗急跳墙VPN',
-            'hidemytail': 'HideMyTail',
-            'dogssl':'DogSSL',
-            'dogrun':'DogRun',
-            'dogvpn':'DogVPN',
-        };
-        const defaultTitle = "";
-        let title = defaultTitle;
-        Object.keys(hostMap).forEach(key => {
-            if (window.location.host.includes(key)) {
-                title = hostMap[key];
-            }
-        });
-        document.title = title;
-    </script>
     <script src="./env.js"></script>
     <script>
         window.onload = function() {
@@ -58,32 +67,42 @@
                 }
             `;
             document.head.appendChild(style);
-            const mutedElements = document.querySelectorAll('h5.text-muted');
-            mutedElements.forEach(element => {
-                element.style.margin = '0'; 
-                element.style.padding = '0'; 
-                element.style.cssText += 'color: #4b4b4b !important;';
-                element.style.cssText += 'font-size: 20px !important;';
-                element.style.cssText += 'font-weight: bold';
-                //打印文字
-                const text = element.textContent; // 获取文字内容
-                element.textContent = ''; // 清空原有内容
-                let index = 0; // 字符索引
-                const interval = setInterval(() => {
-                    if (index < text.length) {
-                        element.textContent += text[index]; // 逐个添加字符
-                        index++;
-                    } else {
-                        clearInterval(interval); // 清除定时器
-                    }
-                }, 200); // 每200毫秒显示一个字符
-                //打印文字结束
-                
-            });
+
+            // 添加太阳图标
+            const sunContainer = document.createElement('div');
+            sunContainer.className = 'sun-container';
+            sunContainer.innerHTML = `
+                <img src="https://pub-7b2c70e035c9410197966e5e06a22b02.r2.dev/sun.png" class="sun" alt="sun" />
+            `;
+            document.body.appendChild(sunContainer);
+
+            // 设置背景图片
+            document.body.style.margin = '0';
+            document.body.style.padding = '0';
+            document.body.style.height = '100vh';
+            document.body.style.width = '100vw';
+            document.body.style.backgroundImage = `url(${window.settings.background_url})`;
+            document.body.style.backgroundPosition = 'center';
+            document.body.style.backgroundSize = 'cover';
+            document.body.style.backgroundRepeat = 'no-repeat';
             
+            const hostMap = {
+                'gjtq': '狗急跳墙VPN',
+                'hidemytail': 'HideMyTail',
+                'dogssl':'DogSSL',
+                'dogrun':'DogRun',
+                'dogvpn':'DogVPN',
+            };
+            const defaultTitle = "";
+            let title = defaultTitle;
+            Object.keys(hostMap).forEach(key => {
+                if (window.location.host.includes(key)) {
+                    title = hostMap[key];
+                }
+            });
+            document.title = title;
         };
     </script>
-    <!-- <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?compat=recaptcha" async defer></script> -->
     <div id="app"></div>
 </body>
 </html>
